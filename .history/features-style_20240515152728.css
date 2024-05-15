@@ -14,7 +14,6 @@ body {
   border-radius: 32px;
 }
 
-
 .acg-header {
   color: white;
   font-family: cursive;
@@ -28,15 +27,13 @@ body {
 
 .vertical-line {
   border-left: 3px solid #B3C5D7;
-  height: 42.5em;
+  height: 60em;
   position:absolute;
   margin-left: 20em;
   border-radius: 32px;
   margin-top: 20px;
 }
-.buttons-container {
-  width: fit-content;
-}
+
 .button {
   display: flex;
   justify-content: center;
@@ -67,7 +64,8 @@ body {
   padding: 20px;
   justify-content: center;
   border-radius: 32px;
-
+  position:absolute;
+  bottom: 0;
   width: 100%;
   color: white;
   font-family: cursive;
@@ -75,15 +73,10 @@ body {
 
 .footer-group-1 {
 margin-right: 10vh;
-height: 100%;
 }
 
 .features-container {
-  margin-left: 60vh;
+  margin-left: 80vh;
   position:relative;
-  margin-top: -20vh;
-}
 
-.content {
-    font-family: cursive; 
 }

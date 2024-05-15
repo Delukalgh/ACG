@@ -14,7 +14,9 @@ body {
   border-radius: 32px;
 }
 
-
+.container {
+    font-family: cursive; 
+}
 .acg-header {
   color: white;
   font-family: cursive;
@@ -82,8 +84,5 @@ height: 100%;
   margin-left: 60vh;
   position:relative;
   margin-top: -20vh;
-}
 
-.content {
-    font-family: cursive; 
 }

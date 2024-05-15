@@ -85,5 +85,7 @@ height: 100%;
 }
 
 .content {
+  .container {
     font-family: cursive; 
+}
 }
