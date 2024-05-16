@@ -137,3 +137,12 @@ margin-right: 10vh;
     display: flex;
     flex-direction: column;
  }
+
+ .video-container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    bottom:200px;
+ }
