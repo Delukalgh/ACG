@@ -161,7 +161,7 @@ input[type=checkbox]:checked + label {
 
 .vertical-line {
     border-left: 3px solid #2274A5;
-    height: 60em;
+    height: 100%;
     position:absolute;
     margin-left: 20em;
     border-radius: 32px;
@@ -266,10 +266,9 @@ margin-right: 10vh;
  }
 
 .image{
-    width: 400px;
+    width: 300px;
     padding: 10px;
     border-radius: 50px;
-
 }
 
 .game-container{
