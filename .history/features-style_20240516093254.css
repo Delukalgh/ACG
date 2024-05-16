@@ -1,8 +1,5 @@
 body {
     background-color: #FDF0D5;
-    background-image: url(images/Background3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   
   .main-container {
@@ -31,7 +28,7 @@ body {
   
   .vertical-line {
     border-left: 3px solid #B3C5D7;
-    height: 63em;
+    height: 42.5em;
     position:absolute;
     margin-left: 20em;
     border-radius: 32px;
@@ -65,20 +62,16 @@ body {
   }
   
   .footer-container {
-    position: fixed;
-    bottom: 0; 
-    width: 100%; 
-    background-color: #2274A5;
-    padding: 10px;
     display: flex;
+    background-color: #2274A5;
+    padding: 20px;
     justify-content: center;
+    border-radius: 32px;
+  
+    width: 100%;
     color: white;
     font-family: cursive;
-    z-index: 999; 
-    box-sizing: border-box; 
-    border-radius: 32px;
-    margin: 0 auto;
-}
+  }
   
   .footer-group-1 {
   margin-right: 10vh;
@@ -89,7 +82,6 @@ body {
     margin-left: 60vh;
     position:relative;
     margin-top: -20vh;
-    font-size: 25px;
   }
   
   .content {
