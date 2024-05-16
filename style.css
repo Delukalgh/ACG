@@ -9,7 +9,10 @@ body {
     height: 100%;
 }
 
-
+.main-container {
+    position: relative;
+    min-height: 100vh;
+}
 .header-container {
     display: flex;
     padding: 10px;
@@ -40,7 +43,7 @@ body {
     margin-top: 20px;
 }
 
-.about-button {
+.button {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -60,6 +63,86 @@ body {
     cursor: pointer;
 }
 
-.about-link {
+.link {
     text-decoration: none;
 }
+
+.footer-container {
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    background-color: #2274A5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: cursive;
+    z-index: 999; 
+    box-sizing: border-box; 
+    border-radius: 32px;
+    margin: 0 auto;
+}
+
+.footer-group-1 {
+margin-right: 10vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    width: 50%;
+    margin-left: 30em;
+    margin-right: auto;
+    bottom: 10em;
+    position: relative;
+ }
+
+ .content-container{
+    width: 50%;
+    margin-left: 30em;
+    margin-right: auto;
+    bottom: 17.5em;
+    position: relative;
+ }
+
+ .subheader{
+    text-align: center;
+ }
+
+ .external-link{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+ }
+
+ .link-text{
+    font-size: 24px;
+ }
+
+ .subheader{
+    font-size: 32px;
+ }
+
+ .body{
+    font-size: 16px;
+ }
+
+.image{
+    width: 400px;
+    padding: 10px;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: row;
+}
+
+ .card{
+    display: flex;
+    flex-direction: column;
+ }

@@ -1,0 +1,76 @@
+body {
+    background-color: #FDF0D5;
+}
+
+.main-container {
+    position: relative;
+    min-height: 100vh;
+}
+.header-container {
+    display: flex;
+    background-color: #2274A5;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 32px;
+}
+
+.acg-header {
+    color: white;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+.acg-logo {
+    display: flex;
+    margin-left: 50px;
+}
+
+.vertical-line {
+    border-left: 3px solid #B3C5D7;
+    height: 60em;
+    position:absolute;
+    margin-left: 20em;
+    border-radius: 32px;
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content: left;
+    margin-left: 3em;
+}
+
+.about-page {
+    display: flex;
+    background-color: #669BBC;
+    padding: 20px 70px;
+    border-radius: 32px;
+    border: none;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 5px 5px 10px #2274A5;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #2274A5;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 32px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: cursive;
+}
+
+.footer-group-1 {
+margin-right: 10vh;
+}
