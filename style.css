@@ -93,6 +93,46 @@ margin-right: 10vh;
     position: relative;
  }
 
+ .content-container{
+    width: 50%;
+    margin-left: 30em;
+    margin-right: auto;
+    bottom: 17.5em;
+    position: relative;
+ }
+
+ .subheader{
+    text-align: center;
+ }
+
+ .external-link{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+ }
+
+ .link-text{
+    font-size: 24px;
+ }
+
+ .subheader{
+    font-size: 32px;
+ }
+
+ .body{
+    font-size: 16px;
+ }
+
+.image{
+    width: 400px;
+    padding: 10px;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: row;
+}
+
  .card{
     display: flex;
     flex-direction: column;
