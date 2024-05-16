@@ -1,8 +1,5 @@
 body {
     background-color: #FDF0D5;
-    background-image: url(images/Background3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   
   .main-container {
@@ -89,7 +86,6 @@ body {
     margin-left: 60vh;
     position:relative;
     margin-top: -20vh;
-    font-size: 25px;
   }
   
   .content {
